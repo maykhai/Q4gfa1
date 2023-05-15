@@ -1,0 +1,54 @@
+
+header {
+    background-color: #be7ca8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+ 
+  form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  
+  input[type="text"],
+  input[type="radio"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+ 
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  input:invalid {
+    border-color: red;
+  }
+  
